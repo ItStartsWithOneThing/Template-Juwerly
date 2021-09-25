@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__top">
+                        <nav class="menu">
+                            <ul class="navigation">
+                                <li class="navigation__item">
+                                    <a class="navigation__link" href="#">Контрагентам</a>
+                                </li>
+                                <li class="navigation__item">
+                                    <a class="navigation__link" href="#">Дизайнерам</a>
+                                </li>
+                                <li class="navigation__item">
+                                    <a class="navigation__link" href="#">Вакансии</a>
+                                </li>
+                            </ul>
+                            <a class="logo" href="#">
+                                <img  class="logo__img" src="../Juwerly/images/logo.png" alt="">
+                            </a>
+                            <ul class="search-account">
+                                <li class="search-account__item search__item">
+                                    <a class="search-account__item-link" href="#">
+                                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class = "search-account__item-link-img" d="M19 17L13.846 11.846C14.7988 10.3979 15.1805 8.64774 14.917 6.93442C14.6536 5.22111 13.7638 3.66648 12.4199 2.57154C11.076 1.47659 9.37369 0.919227 7.64247 1.00735C5.91125 1.09547 4.27431 1.82281 3.04857 3.04855C1.82283 4.27429 1.09549 5.91123 1.00737 7.64245C0.91925 9.37366 1.47662 11.076 2.57156 12.4199C3.6665 13.7637 5.22113 14.6535 6.93445 14.917C8.64777 15.1804 10.3979 14.7988 11.846 13.846L17 19L19 17ZM3 7.99998C3 5.24298 5.243 2.99998 8 2.99998C10.757 2.99998 13 5.24298 13 7.99998C13 10.757 10.757 13 8 13C5.243 13 3 10.757 3 7.99998Z" fill="white"/>
+                                        </svg>
+                                        <span class="search__text">Поиск</span>
+                                    </a>
+                                </li>
+                                <li class="search-account__item">
+                                    <a class="search-account__item-link" href="#">Вход/Регистрация</a>
+                                </li>
+                                <li class="search-account__item">
+                                    <a class="search-account__item-heard heard" href="#">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="acc__heard" d="M8 0C9.06087 0 10.0783 0.421427 10.8284 1.17157C11.5786 1.92172 12 2.93913 12 4C12 5.06087 11.5786 6.07828 10.8284 6.82843C10.0783 7.57857 9.06087 8 8 8C6.93913 8 5.92172 7.57857 5.17157 6.82843C4.42143 6.07828 4 5.06087 4 4C4 2.93913 4.42143 1.92172 5.17157 1.17157C5.92172 0.421427 6.93913 0 8 0ZM8 10C12.42 10 16 11.79 16 14V16H0V14C0 11.79 3.58 10 8 10Z" fill="white"/>
+                                        </svg>
+                                    </a>
+                                    <a class="search-account__item-link" href="#">
+                                        <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="acc__img" d="M8.97342 2.59641C6.21857 -1.65888 0.642853 0.659263 0.642853 5.29469C0.642853 8.77555 8.28685 14.2205 8.97342 14.9285C9.66471 14.2205 16.9286 8.77555 16.9286 5.29469C16.9286 0.694406 11.7334 -1.65888 8.97342 2.59641Z" fill="white"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__content">
+                        <p>Долго, дорого, богато!</p>
+                        <button class="button">
+                            <a href="#" class="button__link">каталог изделий</a>
+                        </button>
+                    </div>
+                    <div class="header__bottom">
+                        <ul class="brand-logo__list">
+                            <li class="brand-logo__item">
+                                <img class="brand-logo" src="images/brand-logo.png" alt="">
+                            </li>
+                            <li class="brand-logo__item">
+                                <img class="brand-logo" src="images/brand-logo-line.png" alt="">
+                            </li>
+                            <li class="brand-logo__item">
+                                <img class="brand-logo" src="images/brand-logo.png" alt="">
+                            </li>
+                            <li class="brand-logo__item">
+                                <img class="brand-logo" src="images/brand-logo-line.png" alt="">
+                            </li>
+                            <li class="brand-logo__item">
+                                <img class="brand-logo" src="images/brand-logo.png" alt="">
+                            </li>
+                            <li class="brand-logo__item">
+                                <img class="brand-logo" src="images/brand-logo-line.png" alt="">
+                            </li>
+                            <li class="brand-logo__item">
+                                <img class="brand-logo" src="images/brand-logo.png" alt="">
+                            </li>
+                            <li class="brand-logo__item">
+                                <img class="brand-logo" src="images/brand-logo-line.png" alt="">
+                            </li>
+                            <li class="brand-logo__item">
+                                <img class="brand-logo" src="images/brand-logo.png" alt="">
+                            </li>
+                            <li class="brand-logo__item">
+                                <img class="brand-logo" src="images/brand-logo-line.png" alt="">
+                            </li>
+                            <li class="brand-logo__item">
+                                <img class="brand-logo" src="images/brand-logo.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="events">
+            <div class="container">
+                <div class="events__inner">
+                    <h6 class="events__title-additional">
+                        К мероприятиям
+                    </h6>
+                    <h2 class="events__title">
+                        Настоящая красота здесь!
+                    </h2>
+                    <div class="events-menu">
+                        <ul class="occasion-menu">
+                            <li class="occasion-menu__item">
+                                <a class="occasion-menu__item-link occasion-menu__item-link--active" href="#tab-1">
+                                    <div class="occasion-menu__item-front"><span>Свадьба</span></div>
+                                    <div class="occasion-menu__item-back"></div>
+                                </a>
+                            </li>
+                            <li class="occasion-menu__item">
+                                <a class="occasion-menu__item-link" href="#tab-2">
+                                    <div class="occasion-menu__item-front"><span>МУЖУ</span></div>
+                                    <div class="occasion-menu__item-back"></div>
+                                </a>
+                            </li>
+                            <li class="occasion-menu__item">
+                                <a class="occasion-menu__item-link" href="#tab-3">
+                                    <div class="occasion-menu__item-front"><span>жене</span></div>
+                                    <div class="occasion-menu__item-back"></div>
+                                </a>
+                                </li>
+                            <li class="occasion-menu__item">
+                                <a class="occasion-menu__item-link" href="#tab-4">
+                                    <div class="occasion-menu__item-front"><span>партнеру</span></div>
+                                    <div class="occasion-menu__item-back"></div>
+                                </a>
+                            </li>
+                            <li class="occasion-menu__item">
+                                <a class="occasion-menu__item-link" href="#tab-5">
+                                    <div class="occasion-menu__item-front"><span>коллекции</span></div>
+                                    <div class="occasion-menu__item-back"></div>
+                                </a>
+                            </li>
+                            <li class="occasion-menu__item">
+                                <a class="occasion-menu__item-link" href="#tab-6">
+                                    <div class="occasion-menu__item-front"><span>редкость</span></div>
+                                    <div class="occasion-menu__item-back"></div>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="items-menu items-menu--active" id="tab-1">
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-rings.jpg" alt="" class="items-menu__item-img">
+                                <span class="items-menu__item-text">Кольца</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-earrings.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">серьги</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-pendants.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">подвески</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-cufflinks.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">запонки</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-bracelets.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">браслеты</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-watches.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">часы</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="items-menu" id="tab-2">
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-rings.jpg" alt="" class="items-menu__item-img">
+                                <span class="items-menu__item-text">МУЖУ</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-earrings.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">МУЖУ</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-pendants.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">МУЖУ</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-cufflinks.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">МУЖУ</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-bracelets.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">МУЖУ</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-watches.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">МУЖУ</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="items-menu" id="tab-3">
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-rings.jpg" alt="" class="items-menu__item-img">
+                                <span class="items-menu__item-text">жене</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-earrings.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">жене</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-pendants.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">жене</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-cufflinks.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">жене</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-bracelets.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">жене</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-watches.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">жене</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="items-menu" id="tab-4">
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-rings.jpg" alt="" class="items-menu__item-img">
+                                <span class="items-menu__item-text">партнеру</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-earrings.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">партнеру</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-pendants.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">партнеру</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-cufflinks.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">партнеру</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-bracelets.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">партнеру</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-watches.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">партнеру</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="items-menu" id="tab-5">
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-rings.jpg" alt="" class="items-menu__item-img">
+                                <span class="items-menu__item-text">коллекции</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-earrings.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">коллекции</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-pendants.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">коллекции</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-cufflinks.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">коллекции</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-bracelets.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">коллекции</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-watches.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">коллекции</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="items-menu" id="tab-6">
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-rings.jpg" alt="" class="items-menu__item-img">
+                                <span class="items-menu__item-text">редкость</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-earrings.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">редкость</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-pendants.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">редкость</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-cufflinks.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">редкость</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-bracelets.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">редкость</span>
+                                </a>
+                            </li>
+                            <li class="items-menu__item">
+                                <a class="items-menu__item-link" href="#">
+                                    <img src="images/events-watches.jpg" alt="" class="items-menu__item-img">
+                                    <span class="items-menu__item-text">редкость</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="description">
+            <h6 class="description__title-additional">
+                Не знаете, что выбрать?
+            </h6>
+            <h2 class="description__title">
+                Посетите наши салоны в Москве
+            </h2>
+            <p class="description__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut duis tortor vitae pellentesque egestas quam pulvinar. Pellentesque porttitor velit sit pellentesque. Suspendisse donec pretium id dignissim. Dignissim ultrices eget orci viverra. Egestas quis et ut ultrices imperdiet lectus nulla tempus. Pharetra lorem sem purus nisi libero viverra ipsum.
+            </p>
+            <button class="description__btn">
+                <a href="#" class="description__btn-link">наши салоны</a>
+            </button>
+        </section>
+        <section class="articles">
+            <div class="container">
+                <div class="articles__inner">
+                    <h6 class="articles__title-additional">
+                        Полезные статьи
+                    </h6>
+                    <h2 class="articles__title">
+                        Лучшие советы по подбору дорогих подарков
+                    </h2>
+                    <ul class="articles__items">
+                        <li class="articles__item">
+                            <a class="articles__item-link" href="#">
+                                <img src="images/articles-item-1.jpg" alt="" class="articles__item-img">
+                                <span class="articles__item-text">Как выбрать часы для своей будущей жены</span>
+                            </a>
+                        </li>
+                        <li class="articles__item">
+                            <a class="articles__item-link" href="#">
+                                <img src="images/articles-item-2.jpg" alt="" class="articles__item-img">
+                                <span class="articles__item-text">Запонки для мужа: 7 ключевых правил покупки аксессуара</span>
+                            </a>
+                        </li>
+                        <li class="articles__item">
+                            <a class="articles__item-link" href="#">
+                                <img src="images/articles-item-3.jpg" alt="" class="articles__item-img">
+                                <span class="articles__item-text">Как выбрать обручальные кольца молодоженам</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="articles__btn">
+                        <a href="#" class="articles__btn-link">читать наш блог</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="social-media">
+            <div class="container">
+                <div class="social-media__inner">
+                    <h6 class="social-media__title-additional">
+                        #ojjo_jewerly
+                    </h6>
+                    <h2 class="social-media__title">
+                        Мы в социальных сетях
+                    </h2>
+                    <div class="social-media__items">
+                        <img class="social-media__item" src="images/social-video-1.jpg" alt="">
+                        <img class="social-media__item" src="images/social-img1.jpg" alt="">
+                        <img class="social-media__item" src="images/social-img2.jpg" alt="">
+                        <img class="social-media__item" src="images/social-img3.jpg" alt="">
+                        <img class="social-media__item" src="images/social-img4.jpg" alt="">
+                        <img class="social-media__item" src="images/social-video-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mail">
+            <h6 class="mail__title-additional">
+                Полезные советы и персональный предложения
+            </h6>
+            <h2 class="mail__title">
+                Эксклюзивная рассылка
+            </h2>
+            <div class="mail-menu">
+                <ul class="mail-menu__list">
+                    <li class="mail-menu__item">
+                        <a class="mail-menu__item-link" href="#">
+                            <img class="mail-menu__item-img" src="images/mail-logo.png" alt="">Личный менеджер
+                        </a>
+                    </li>
+                    <li class="mail-menu__item">
+                        <a class="mail-menu__item-link" href="#">
+                            <img class="mail-menu__item-img" src="images/mail-logo.png" alt="">Доставка и оформление
+                        </a>
+                    </li>
+                    <li class="mail-menu__item">
+                        <a class="mail-menu__item-link" href="#">
+                            <img class="mail-menu__item-img" src="images/mail-logo.png" alt="">Индивидуальный дизайн
+                        </a>
+                    </li>
+                </ul>
+                <div class="mail-menu__form-outer">
+                    <div class="mail-menu__form-inner">
+                        <form action="" class="mail-menu__form">
+                            <input class="mail-menu__form-input" type="email" placeholder="Ваш e-mail">
+                            <button class="mail__btn" type="submit">
+                                отправить
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__content">
+                        <div class="footer-links">
+                            <h5 class="footer__title">
+                                Полезные ссылки
+                            </h5>
+                            <ul class="footer-links__list">
+                                <li class="footer-links__list-item">
+                                    <a class="footer-links__list-link" href="#">
+                                        Доставка
+                                    </a>
+                                </li>
+                                <li class="footer-links__list-item">
+                                    <a class="footer-links__list-link" href="#">
+                                        Оплата 
+                                    </a>
+                                </li>
+                                <li class="footer-links__list-item">
+                                    <a class="footer-links__list-link" href="#">
+                                        Акции
+                                    </a>
+                                </li>
+                                <li class="footer-links__list-item">
+                                    <a class="footer-links__list-link" href="#">
+                                        Политика конфиденциальности
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__payment">
+                            <h5 class="footer__title">
+                                оплата
+                            </h5>
+                            <p class="footer__payment-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper justo, nec, pellentesque.
+                            </p>
+                            <img class="footer__visa" src="images/visa-img.png" alt="visa">
+                            <img class="footer__master-card" src="images/master card-img.png" alt="master card">
+                        </div>
+                        <div class="footer__contacts">
+                            <h5 class="footer__title">
+                                контакты
+                            </h5>
+                            <ul class="footer__contacts-list">
+                                <li class="footer__contacts-item">
+                                    <a class="footer__contacts-item-link" href="#">
+                                        <img class="footer__contacts-img" src="images/footer-phone-img.png" alt="phone">
+                                        8 (812) 234-56-55
+                                    </a>
+                                </li>
+                                <li class="footer__contacts-item">
+                                    <a class="footer__contacts-item-link" href="#">
+                                        <img class="footer__contacts-img" src="images/footer-phone-img.png" alt="phone">
+                                        8 (050) 000-11-22
+                                    </a>
+                                </li>
+                                <li class="footer__contacts-item">
+                                    <a class="footer__contacts-item-link" href="#">
+                                        <img class="footer__contacts-img" src="images/footer-mail-img.png" alt="email">
+                                        ojjo@ojjo.ru
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__social-media">
+                            <h5 class="footer__title">
+                                социальные сети
+                            </h5>
+                            <p class="footer__social-media-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper justo, nec, pellentesque.
+                            </p>
+                            <div class="footer__social-media-links">
+                                <a href="#" class="footer__social-media-link">
+                                    <img class="footer__social-media-img" src="images/youtube.png" alt="YouTube">
+                                </a>
+                                <a href="#" class="footer__social-media-link">
+                                    <img class="footer__social-media-img" src="images/vk.png" alt="VK">
+                                </a>
+                                <a href="#" class="footer__social-media-link">
+                                    <img class="footer__social-media-img" src="images/facebook.png" alt="FB">
+                                </a>
+                                <a href="#" class="footer__social-media-link">
+                                    <img class="footer__social-media-img" src="images/telegram.png" alt="Telegram">
+                                </a>
+                                <a href="#" class="footer__social-media-link">
+                                    <img class="footer__social-media-img" src="images/etsy.png" alt="Etsy">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <p class="footer__bottom-text">
+                            (c) 2020 OJJO jewelry   
+                        </p>
+                        <a class="footer__bottom-link" href="#">Договор публичной офферты</a>
+                        <a class="footer__bottom-link" href="#">Контрагентам</a>
+                        <a class="footer__bottom-link" href="#">Сделано Figma.info</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
