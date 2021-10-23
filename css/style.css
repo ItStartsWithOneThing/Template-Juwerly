@@ -227,12 +227,23 @@ ul{
     text-align: center;
 }
 
+.events_menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.occasion-container{
+    margin-top: 60px;
+    margin-bottom: 55px;
+}
+
 .occasion-menu{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-bottom: 55px;
-    margin-top: 60px;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .occasion-menu__item{
@@ -833,6 +844,24 @@ ul{
     margin-bottom: 25px;
 }
 
+@media(max-width: 1105px){
+
+    .occasion-menu{
+        flex-wrap: wrap;
+        width: 63%;
+    }
+    
+    .occasion-menu__item{
+        margin-bottom: 10px;
+        margin-right: 5px;
+    }
+
+    .items-menu--active{
+        width: 705px;
+        margin: 0 auto;
+    }
+}
+
 @media(max-width: 1000px){
 
     .menu-btn{
@@ -856,6 +885,27 @@ ul{
 
 }
 
+@media(max-width: 875px){
+    .occasion-menu{
+        width: 360px;
+    }
+}
+
+@media(max-width: 760px){
+    .items-menu--active{
+        width: 535px;
+    }
+    .items-menu__item-img{
+        width: 263px;
+        height: 188px;
+    }
+    .items-menu__item-text {
+        left: 63px;
+        font-size: 20px;
+        line-height: 24px;
+}
+
+
 @media(max-width: 680px){
 
     .header__top{
@@ -864,6 +914,40 @@ ul{
 
     .brand-logo__item:nth-child(1n+6){
         display: none;
+    }
+}
+
+@media(max-width: 580px){
+    .items-menu--active{
+        width: 355px;
+        height: auto;
+    }
+    .items-menu__item-img{
+        width: 175px;
+        height: 140px;
+    }
+
+    .items-menu__item-text {
+        left: 15px;
+        bottom: 20px;
+    }
+
+    .items-menu__item{
+        height: 140px;
+        margin-bottom: 5px;
+    }
+
+    .occasion-container {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .events__title-additional {
+        margin-bottom: 10px;
+    }
+
+    .header{
+        margin-bottom: 70px;
     }
 }
 
@@ -888,6 +972,18 @@ ul{
     .drop-down__menu{
         height: 100%;
     }
+
+    .menu-btn{
+        margin-right: 5px;
+    }
+
+    .menu-cross.active{
+        margin-right: 5px;
+    }
+
+    .logo{
+        margin-left: 5px;
+    }   
 }
 
 
@@ -902,20 +998,72 @@ ul{
     }
 }
 
-@media(max-width: 450px){
-    .logo{
-        margin-left: 35px;
+@media(max-width: 390px){
+    .occasion-menu{
+        width: 310px;
     }
 
-    .menu-btn{
-        margin-right: 5px;
+    .occasion-menu__item-front{
+        height: 50px;
+        width: 145px;
+        max-width: 145px;
+        max-height: 50px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+    
+    .occasion-menu__item-front span{
+        font-size: 16px;
+        line-height: 18px;
+    }
+     
+    .occasion-menu__item-back{
+        height: 50px;
+        width: 145px;
+        max-width: 145px;
+        max-height: 50px;
+        bottom: 3px;
+        left: 4px;
     }
 
-    .menu-cross.active{
-        margin-right: 5px;
+    .occasion-menu__item{
+        height: 57px;
+        width: 149px;
+        max-width: 149px;
+        max-height: 57px;
+    }
+    
+    .occasion-menu__item-link--active .occasion-menu__item-front{
+        background-color: #333333;
+        height: 57px;
+        width: 149px;
+        max-width: 149px;
+        max-height: 57px;
     }
 
-    .logo{
-        margin-left: 5px;
+    
+    .items-menu--active{
+        width: 305px;
+        height: auto;
+    }
+    .items-menu__item-img{
+        width: 150px;
+        height: 120px;
+    }
+
+    .items-menu__item-text {
+        font-size: 16px;
+        line-height: 18px;
+        left: 3px;
+        bottom: 20px;
+    }
+
+    .items-menu__item{
+        height: 120px;
+        margin-bottom: 5px;
+    }
+
+    .occasion-container{
+        margin-bottom: 20px;
     }
 }   
